@@ -25,7 +25,7 @@ logger(x);
  *   C = (F - 32) * (5/9)
  ************************************/
 const toCelsius = function (temperatures) {
-  return temperatures.map((i) => (i = (i - 32) * (5 / 9)));
+  return temperatures.map((i) => (i - 32) * (5 / 9));
 };
 
 console.log(toCelsius([120, 100, 90]));
