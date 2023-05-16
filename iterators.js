@@ -10,6 +10,7 @@ const logger = function (array) {
   array.forEach((element) => {
     console.log(element);
   });
+  ls;
 };
 logger(x);
 
